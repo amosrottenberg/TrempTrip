@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".JoinGroupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join Group"
+            android:textSize="40sp"
+            />
+    </LinearLayout>
+
+
+    <Button
+
+        android:id="@+id/btnGoToNewGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Group"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:textSize="25sp"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="You'r Phone Number"
+        android:textSize="25sp"
+        android:inputType="phone"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/etGroupName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Group Name"
+        android:textSize="25sp"
+        android:imeOptions="actionDone"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnJoinGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Group"
+        android:textSize="25sp"/>
+
+</LinearLayout>

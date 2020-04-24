@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".SignInActivity">
+
+
+
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="25sp"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="25sp"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"/>
+
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_marginTop="100dp"
+        android:id="@+id/btnGoToSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:background="#45FF76"
+        android:textColor="#FDFAED"
+        android:textSize="25sp"/>
+
+
+
+</LinearLayout>

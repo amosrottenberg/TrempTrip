@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnGoToCreateTremp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="New Tremp"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnGoToCreateTrip"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="New Trip"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnShowAllTremps"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="All Tremps"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnShowAllTrips"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="All Trips"
+                android:textAllCaps="false"
+                android:textSize="24sp" />
+        </TableRow>
+    </TableLayout>
+
+
+
+
+</LinearLayout>

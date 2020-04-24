@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "212592038369",
+    "firebase_url": "https://trempme-c41ab.firebaseio.com",
+    "project_id": "trempme-c41ab",
+    "storage_bucket": "trempme-c41ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212592038369:android:cb195c8e1b2fdc48",
+        "android_client_info": {
+          "package_name": "com.example.student.trempme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212592038369-fbvu91nrclfu7dcovjkgc20nltsaaurl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.student.trempme",
+            "certificate_hash": "d932365e268f11e8dcf5fee64338b00c17677388"
+          }
+        },
+        {
+          "client_id": "212592038369-v4blrs2lqvg5ij501pdg2rhtddrkf3vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbMcq_5_bEts4NkgC3-3FNjCi0fvY8yy4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212592038369-v4blrs2lqvg5ij501pdg2rhtddrkf3vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
